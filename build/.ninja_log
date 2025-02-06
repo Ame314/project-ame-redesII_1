@@ -2137,3 +2137,5 @@
 90	110	1738814998752247143	/home/ame/project-ame/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	d77a94c7ebf8be59
 110	14864	1738814998752247143	CMakeFiles/flash	c7b5be87a605f875
 110	14864	1738814998752247143	/home/ame/project-ame/build/CMakeFiles/flash	c7b5be87a605f875
+19	3765273	1738814038721355528	CMakeFiles/confserver	dc7e763b10f7cc5c
+19	3765273	1738814038721355528	/home/ame/project-ame/build/CMakeFiles/confserver	dc7e763b10f7cc5c
