@@ -1,0 +1,128 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15716
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Feb  5 2025 15:03:04[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v3.1[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (42) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (50) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=18d8ch (101772) map[0m
+[0;32mI (124) esp_image: segment 1: paddr=00028db4 vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (125) esp_image: segment 2: paddr=00028dd8 vaddr=3ffb0000 size=03f38h ( 16184) load[0m
+[0;32mI (134) esp_image: segment 3: paddr=0002cd18 vaddr=40080000 size=03300h ( 13056) load[0m
+[0;32mI (141) esp_image: segment 4: paddr=00030020 vaddr=400d0020 size=83a74h (539252) map[0m
+[0;32mI (328) esp_image: segment 5: paddr=000b3a9c vaddr=40083300 size=14438h ( 83000) load[0m
+[0;32mI (371) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (371) boot: Disabling RNG early entropy source...[0m
+[0;32mI (382) cpu_start: Multicore app[0m
+[0;32mI (390) cpu_start: Pro cpu start user code[0m
+[0;32mI (390) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (390) app_init: Application information:[0m
+[0;32mI (390) app_init: Project name:     project-ame[0m
+[0;32mI (395) app_init: App version:      1[0m
+[0;32mI (398) app_init: Compile time:     Feb  5 2025 22:54:52[0m
+[0;32mI (403) app_init: ELF file SHA256:  e45b8ac21...[0m
+[0;32mI (407) app_init: ESP-IDF:          v5.4[0m
+[0;32mI (411) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (415) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (419) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (423) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (429) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (434) heap_init: At 3FFB81B0 len 00027E50 (159 KiB): DRAM[0m
+[0;32mI (439) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (445) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (450) heap_init: At 40097738 len 000088C8 (34 KiB): IRAM[0m
+[0;32mI (457) spi_flash: detected chip: generic[0m
+[0;32mI (459) spi_flash: flash io: dio[0m
+[0;33mW (462) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (475) main_task: Started on CPU0[0m
+[0;32mI (485) main_task: Calling app_main()[0m
+[0;32mI (485) ESP32_TCP_CLIENT: 🚀 Iniciando ESP32 TCP Cliente...[0m
+[0;32mI (515) wifi:wifi driver task: 3ffc0104, prio:23, stack:6656, core=0[0m
+[0;32mI (525) wifi:wifi firmware version: 48ea317a7[0m
+[0;32mI (525) wifi:wifi certification version: v7.0[0m
+[0;32mI (525) wifi:config NVS flash: enabled[0m
+[0;32mI (525) wifi:config nano formatting: disabled[0m
+[0;32mI (535) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (535) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (535) wifi:Init management short buffer num: 32[0m
+[0;32mI (545) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (545) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (555) wifi:Init static rx buffer num: 10[0m
+[0;32mI (555) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (565) wifi_init: rx ba win: 6[0m
+[0;32mI (565) wifi_init: accept mbox: 6[0m
+[0;32mI (565) wifi_init: tcpip mbox: 32[0m
+[0;32mI (565) wifi_init: udp mbox: 6[0m
+[0;32mI (575) wifi_init: tcp mbox: 6[0m
+[0;32mI (575) wifi_init: tcp tx win: 5760[0m
+[0;32mI (575) wifi_init: tcp rx win: 5760[0m
+[0;32mI (585) wifi_init: tcp mss: 1440[0m
+[0;32mI (585) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (585) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;33mW (595) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (605) phy_init: phy_version 4840,02e0d70,Sep  2 2024,19:39:07[0m
+[0;32mI (685) wifi:mode : sta (24:dc:c3:44:6d:64)[0m
+[0;32mI (685) wifi:enable tsf[0m
+[0;32mI (685) ESP32_TCP_CLIENT: intentando conectar a 192.168.1.23:12345...[0m
+[1;31mE (695) ESP32_TCP_CLIENT:  Error conectando al servidor. Reintentando en 3s...[0m
+[0;32mI (695) wifi:new:<4,0>, old:<1,0>, ap:<255,255>, sta:<4,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (705) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (705) main_task: Returned from app_main()[0m
+[0;32mI (715) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (725) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (745) wifi:connected with Casa_GROB_ROSERO, aid = 21, channel 4, BW20, bssid = 3c:f9:f0:9b:0f:d8[0m
+[0;32mI (745) wifi:security: WPA2-PSK, phy: bgn, rssi: -73[0m
+[0;32mI (755) wifi:pm start, type: 1[0m
+
+[0;32mI (755) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (765) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (765) wifi:<ba-add>idx:0 (ifx:0, 3c:f9:f0:9b:0f:d8), tid:0, ssn:2, winSize:64[0m
+[1;31mE (3695) ESP32_TCP_CLIENT:  Error conectando al servidor. Reintentando en 3s...[0m
+[0;32mI (3935) esp_netif_handlers: sta ip: 192.168.1.88, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (6905) ESP32_TCP_CLIENT: Conexión establecida con el servidor[0m
+[0;32mI (6905) ESP32_TCP_CLIENT: Mensaje enviado: LED ENCENDIDO[0m
+[0;32mI (6915) ESP32_TCP_CLIENT: Respuesta recibida: ACK: LED está encendido[0m
+[0;32mI (11915) ESP32_TCP_CLIENT: Mensaje enviado: LED APAGADO[0m
+[0;32mI (11925) ESP32_TCP_CLIENT: Respuesta recibida: ACK: LED está apagado[0m
+[0;32mI (16925) ESP32_TCP_CLIENT: Mensaje enviado: LED ENCENDIDO[0m
+[0;32mI (17045) ESP32_TCP_CLIENT: Respuesta recibida: ACK: LED está encendido[0m
+[0;32mI (22045) ESP32_TCP_CLIENT: Mensaje enviado: LED APAGADO[0m
+[0;32mI (22045) ESP32_TCP_CLIENT: Respuesta recibida: ACK: LED está apagado[0m
+[0;32mI (27045) ESP32_TCP_CLIENT: Mensaje enviado: LED ENCENDIDO[0m
+[0;32mI (27175) ESP32_TCP_CLIENT: Respuesta recibida: ACK: LED está encendido[0m
+[0;32mI (32175) ESP32_TCP_CLIENT: Mensaje enviado: LED APAGADO[0m
+[0;32mI (32195) ESP32_TCP_CLIENT: Respuesta recibida: ACK: LED está apagado[0m
+[0;32mI (37195) ESP32_TCP_CLIENT: Mensaje enviado: LED ENCENDIDO[0m
+[0;32mI (37195) ESP32_TCP_CLIENT: Respuesta recibida: ACK: LED está encendido[0m
+[0;32mI (42195) ESP32_TCP_CLIENT: Mensaje enviado: LED APAGADO[0m
+[0;32mI (42195) ESP32_TCP_CLIENT: Respuesta recibida: ACK: LED está apagado[0m
+[0;32mI (47195) ESP32_TCP_CLIENT: Mensaje enviado: LED ENCENDIDO[0m
+[0;32mI (47355) ESP32_TCP_CLIENT: Respuesta recibida: ACK: LED está encendido[0m
+[0;32mI (52355) ESP32_TCP_CLIENT: Mensaje enviado: LED APAGADO[0m
+[0;32mI (52365) ESP32_TCP_CLIENT: Respuesta recibida: ACK: LED está apagado[0m
+[0;32mI (57365) ESP32_TCP_CLIENT: Mensaje enviado: LED ENCENDIDO[0m
+[0;32mI (57385) ESP32_TCP_CLIENT: Respuesta recibida: ACK: LED está encendido[0m
+[0;32mI (62385) ESP32_TCP_CLIENT: Mensaje enviado: LED APAGADO[0m
+[0;32mI (62405) ESP32_TCP_CLIENT: Respuesta recibida: ACK: LED está apagado[0m
+[0;32mI (67405) ESP32_TCP_CLIENT: Mensaje enviado: LED ENCENDIDO[0m
+[0;32mI (67405) ESP32_TCP_CLIENT: Respuesta recibida: ACK: LED está encendido[0m
+[0;32mI (72405) ESP32_TC
